@@ -1,0 +1,14 @@
+[{
+    "modid": "hiddenmessages",
+    "name": "Hidden Messages Mod",
+    "description": "Hide a secret message in plain sight",
+    "version": "0.1.0",
+    "mcversion": "1.7.10",
+    "url": "https://github.com/TheGreyGhost",
+    "updateUrl": "",
+    "authors": [ "TheGreyGhost" ],
+    "credits": "With many thanks to the MCP and Forge authors.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
