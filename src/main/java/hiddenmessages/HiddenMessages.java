@@ -8,15 +8,15 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import hiddenmessages.common.CommonProxy;
 
-@Mod(modid = HiddenMessagesMod.ID, name="Hidden Messages Mod", version = HiddenMessagesMod.VERSION)
-public class HiddenMessagesMod
+@Mod(modid = HiddenMessages.ID, name="Hidden Messages Mod", version = HiddenMessages.VERSION)
+public class HiddenMessages
 {
-  public static final String ID = "hiddenmessagesmod";
+  public static final String ID = "hiddenmessages";
   public static final String VERSION = "0.1.0";
 
   // The instance of your mod that Forge uses.
-  @Mod.Instance("hiddenmessagesmod")
-  public static HiddenMessagesMod instance;
+  @Mod.Instance(ID)
+  public static HiddenMessages instance;
 
   // Says where the client and server 'proxy' code is loaded.
   @SidedProxy(clientSide="hiddenmessages.clientside.ClientSideOnlyProxy", serverSide="hiddenmessages.serverside.DedicatedServerProxy")
